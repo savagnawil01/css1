@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#contenedor {
+  width: 1200px;
+  height: 152px;
+  margin: 10px auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#contenedor div {
+  width: 150px;
+  height: 150px;
+}
+
+#rojo {
+  background-color: red;
+}
+    
+#azul {
+  background-color: blue;
+}
+
+#verde {
+  background-color: rgb(0, 255, 21);
+}
